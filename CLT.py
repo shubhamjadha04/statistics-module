@@ -16,3 +16,6 @@ def CLT_pl(Data,no_of_sample,sample_size):
 
     data = np.array(res)
     return data
+
+
+
