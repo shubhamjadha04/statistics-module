@@ -18,4 +18,10 @@ def CLT_pl(Data,no_of_sample,sample_size):
     return data
 
 
-
+# empirical_properties_GD
+def empirical_properties_GD(data,k):
+    meu=np.mean(data)
+    sd=np.std(data)
+    LL=(meu-k*sd) 
+    UL=(meu+k*sd)
+    return [LL,UL]
